@@ -161,7 +161,7 @@ export default function Navbar() {
 
       <div className="max-w-7xl mx-auto px-8 h-20 flex justify-between items-center">
 
-        <div className="flex items-center gap-4">
+        {/* <div className="flex items-center gap-4">
 
           <img
             src={logo}
@@ -178,11 +178,27 @@ export default function Navbar() {
               University of Central Punjab
             </p>
 
-          </div>
+          </div> */}
+<div className="flex items-center gap-3 flex-1 min-w-0">
+  <img
+    src={logo}
+    alt="UCP Logo"
+    className="w-14 h-14 md:w-16 md:h-16 object-contain flex-shrink-0"
+  />
 
-        </div>
+  <div className="min-w-0">
+    <h1 className="font-bold text-lg md:text-3xl text-slate-900 truncate">
+      Federated Diabetes AI
+    </h1>
 
-        <a
+    <p className="text-gray-600 text-sm md:text-base truncate">
+      University of Central Punjab
+    </p>
+  </div>
+ </div>
+        
+
+        {/* <a
 
           href="https://diabetes-risk-prediction-project-qx1z47eqh-fyp-g03.vercel.app/"
 
@@ -194,8 +210,13 @@ export default function Navbar() {
 
           Open System
 
-        </a>
-
+        </a> */}
+<a
+  href="https://diabetes-risk-prediction-project-qx1z47eqh-fyp-g03.vercel.app/"
+  className="bg-blue-600 hover:bg-blue-700 text-white px-4 md:px-8 py-3 rounded-2xl font-semibold whitespace-nowrap flex-shrink-0"
+>
+  Open System
+</a>
       </div>
 
     </nav>
