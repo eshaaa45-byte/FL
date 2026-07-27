@@ -187,11 +187,11 @@ export default function Navbar() {
   />
 
   <div className="min-w-0">
-    <h1 className="font-bold text-lg md:text-3xl text-slate-900 truncate">
+    <h1 className="font-bold text-lg md:text-3xl text-slate-800 truncate">
       Federated Diabetes AI
     </h1>
 
-    <p className="text-gray-600 text-sm md:text-base truncate">
+    <p className="text-gray-500 text-sm md:text-base truncate">
       University of Central Punjab
     </p>
   </div>
@@ -213,7 +213,7 @@ export default function Navbar() {
         </a> */}
 <a
   href="https://diabetes-risk-prediction-project-qx1z47eqh-fyp-g03.vercel.app/"
-  className="bg-blue-600 hover:bg-blue-700 text-white px-4 md:px-8 py-3 rounded-2xl font-semibold whitespace-nowrap flex-shrink-0"
+  className="bg-blue-500 hover:bg-blue-600 text-white px-4 md:px-8 py-3 rounded-2xl font-semibold whitespace-nowrap flex-shrink-0"
 >
   Open System
 </a>
