@@ -191,9 +191,9 @@ export default function Navbar() {
       Federated Diabetes AI
     </h1>
 
-    <p className="text-gray-500 text-sm md:text-base truncate">
+    {/* <p className="text-gray-500 text-sm md:text-base truncate">
       University of Central Punjab
-    </p>
+    </p> */}
   </div>
  </div>
         
