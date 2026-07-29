@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Features from "./components/Features";
@@ -15,7 +15,7 @@ export default function LandingPage() {
   return (
     <div className="landing-page">
 
-      <Navbar />
+      
 
       <Hero />
 
